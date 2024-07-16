@@ -1,0 +1,110 @@
+@tripId = {{getTrips.response.body.trips[0].id}}
+@participantId = {{getTrips.response.body.trips[0].participants[1].id}}
+
+# @name createTrip
+POST http://localhost:3333/trips HTTP/1.1
+content-type: application/json
+
+{
+    "destination": "Santa Catarina",
+    "starts_at": "2024-07-20 13:00",
+    "ends_at": "2024-07-30 13:00",
+    "owner_name":"John Doe",
+    "owner_email":"johndoe@test.com",
+    "emails_to_invite": ["person1@test.com","person2@test.com"]
+}
+
+###
+
+# @name getTrips
+GET http://localhost:3333/trips HTTP/1.1
+
+###
+
+# @name getTripDetails
+GET http://localhost:3333/trips/{{tripId}} HTTP/1.1
+
+###
+
+# @name confirmTrip
+
+GET http://localhost:3333/trips/{{tripId}}/confirm HTTP/1.1
+
+###
+
+# @name updateTrip
+
+PUT http://localhost:3333/trips/{{tripId}} HTTP/1.1
+content-type: application/json
+
+{
+    "destination": "Caraguatatuba / SP",
+    "starts_at": "2024-07-21 12:00",
+    "ends_at": "2024-07-25 12:00"
+}
+
+###
+
+# @name createActivity
+
+POST http://localhost:3333/trips/{{tripId}}/activities HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Pizza Planet",
+    "occurs_at": "2025-08-26 12:00",
+    "value": "8000"
+}
+
+###
+
+# @name getActivities
+
+GET http://localhost:3333/trips/{{tripId}}/activities HTTP/1.1
+
+###
+
+# @name createLink
+
+POST http://localhost:3333/trips/{{tripId}}/links HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Pizza Planet",
+    "url": "https://www.pizzaplanet.com.br"
+}
+
+###
+
+# @name getLinks
+
+GET http://localhost:3333/trips/{{tripId}}/links HTTP/1.1
+
+###
+
+# @name getParticipants
+
+GET http://localhost:3333/trips/{{tripId}}/participants HTTP/1.1
+
+###
+
+# @name getParticipantDetails
+
+GET http://localhost:3333/participants/{{participantId}} HTTP/1.1
+
+###
+
+# @name confirmParticipant
+
+GET http://localhost:3333/participants/{{participantId}}/confirm HTTP/1.1
+
+###
+
+# @name createInvite
+
+POST http://localhost:3333/trips/{{tripId}}/invites HTTP/1.1
+content-type: application/json
+
+{
+    "email": "test@test.com"
+}

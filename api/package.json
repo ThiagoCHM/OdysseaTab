@@ -1,0 +1,38 @@
+{
+    "name": "backend-odyssea_tap",
+    "version": "1.0.0",
+    "main": "server.ts",
+    "scripts": {
+        "dev": "tsx watch src/server.ts",
+        "build": "tsx build",
+        "test": "vitest",
+        "coverage": "vitest run --coverage",
+        "migrate": "npx prisma migrate dev",
+        "generate": "npx prisma generate"
+    },
+    "prisma": {
+        "seed": "tsx prisma/seed.ts"
+    },
+    "keywords": [],
+    "author": "Thiago C H Moreira <thiagochm@gmail.com> (https://thiagomoreira.dev/)",
+    "license": "MIT",
+    "description": "Backend do Odyssea Tap",
+    "devDependencies": {
+        "@faker-js/faker": "^8.4.1",
+        "@types/node": "^20.14.10",
+        "@types/nodemailer": "^6.4.15",
+        "prisma": "^5.16.2",
+        "tsx": "^4.16.2",
+        "typescript": "^5.5.3"
+    },
+    "dependencies": {
+        "@fastify/cors": "^9.0.1",
+        "@prisma/client": "^5.16.2",
+        "cors": "^2.8.5",
+        "dayjs": "^1.11.11",
+        "fastify": "^4.28.1",
+        "fastify-type-provider-zod": "^2.0.0",
+        "nodemailer": "^6.9.14",
+        "zod": "^3.23.8"
+    }
+}
