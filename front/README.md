@@ -1,4 +1,4 @@
-# Odyssea Tab - Backend
+# Odyssea Tab - Frontend
 
 API Rest de Gerenciamento de Viagens com apresentação Multiplataforma
 
