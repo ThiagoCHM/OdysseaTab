@@ -8,23 +8,27 @@ API Rest de Gerenciamento de Viagens com apresentação Multiplataforma (Web e M
 
 ## Funcionalidades:
 
+#### Viagem:
 - [x] Criação de Viagem
-- [x] Confirmação de Viagem
-- [x] Atualização das Dados da Viagem
-- [x] Visualização dos Dados da Viagem
+- [x] Confirmação / Validação
+- [x] Atualização das Dados
+- [x] Visualização dos Dados
 
-- [x] Convite de Novo Participante
+#### Participantes:
+- [x] Convide um Novo Familiar ou Amigo
 - [x] Atualização das Dados do Participante (Em Desenvolvimento)
 - [x] Visualização dos Dados do Participante
 - [x] Listagem de Todos os Participantes da Viagem
 
-- [x] Criação de Atividades
-- [x] Listagem Atividades
+#### Atividades:
+- [x] Agendamento de Passeios e Atrações
+- [x] Listagem em Ordem Cronológica
 
-- [x] Criação de Links Importantes (Em Desenvolvimento)
-- [x] Listagem dos Links Importantes (Em Desenvolvimento)
+#### Links Importantes:
+- [x] Disponibilize Links Pertinentes (Em Desenvolvimento)
+- [x] Listagem todos Links Importantes (Em Desenvolvimento)
 
-### Ferramentas Utilizadas:
+## Ferramentas Utilizadas:
 - **NodeJs**
 - **Fastify**
 - **Prisma**
