@@ -1,14 +1,17 @@
-# Odyssea Tab
+ <figure>
+   <img src="https://i.ibb.co/yWDBkYJ/logo.png" alt="Odyssea Tab">
+ </figure>
+
+
 
 API Rest de Gerenciamento de Viagens com apresentação Multiplataforma (Web e Mobile)
 
-### Funcionalidades:
+## Funcionalidades:
 
 - [x] Criação de Viagem
 - [x] Confirmação de Viagem
 - [x] Atualização das Dados da Viagem
 - [x] Visualização dos Dados da Viagem
-
 
 - [x] Convite de Novo Participante
 - [x] Atualização das Dados do Participante (Em Desenvolvimento)
