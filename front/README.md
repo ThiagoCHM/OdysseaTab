@@ -20,8 +20,8 @@ API Rest de Gerenciamento de Viagens com apresentação Multiplataforma
 1. **Clone o repositório:**
 
     ```bash
-    git clone https://github.com/seu-usuario/planner.git
-    cd planner
+    git clone https://github.com/seu-usuario/OdysseaTab.git
+    cd OdysseaTab
     ```
 
 2. **Instale as dependências:**
