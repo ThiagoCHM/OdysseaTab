@@ -38,25 +38,68 @@ API Rest de Gerenciamento de Viagens com apresentação Multiplataforma (Web e M
 - **Nodemailer**
 - **FakerJs**
 - **Docker** (Opcional)
+- **React**
+- **Vite**
+- **Tailwind CSS**
+- **Axios**
+- **ESLint**
+- **PostCSS**
+- **Date-FNS**
+- **React Router**
 
 ### Como Usar? Pré-Requisitos:
 - **Node.js**
 - **npm**
 
-## Instalação
-### Clone o Repositório:
-`git clone https://github.com/ThiagoCHM/OdysseaTab`
+## Preparação da API:
+1.  **Clone o Repositório:**
+```bash
+git clone https://github.com/ThiagoCHM/OdysseaTab
+```
 
-### No Terminal:
-`cd backend`
+2. **No Terminal:**
+```bash
+cd backend
+```
 
-### Instale as Dependências:
-`npm i`
+3. **Instale as Dependências:**
+```bash
+npm i
+```
 
-### Inicie a Aplicação:
-`npm run dev`
+4. **Inicie a Aplicação:**
+```bash
+npm run dev
+```
+
+## Inicialização do Front:
+1. **Clone o repositório:**
+
+    ```bash
+    cd front
+    ```
+
+2. **Instale as dependências:**
+
+    ```bash
+    npm i
+    ```
+
+3. **Execute o servidor de desenvolvimento:**
+
+    ```bash
+    npm run dev
+    ```
+
+4. **Abra o navegador e acesse:**
+
+    ```
+    http://localhost:3000
+    ```
+
 
 A API estará Disponível em http://localhost:3333.
+Enquanto, o Front estará Disponível em http://localhost:3000.
 
 ### Comandos Uteis:
 
