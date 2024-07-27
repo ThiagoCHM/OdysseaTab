@@ -27,7 +27,7 @@ API Rest de Gerenciamento de Viagens com apresentação Multiplataforma
 2. **Instale as dependências:**
 
     ```bash
-    npm install
+    npm i
     ```
 
 3. **Execute o servidor de desenvolvimento:**
