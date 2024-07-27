@@ -6,6 +6,13 @@
 
 API Rest de Gerenciamento de Viagens com apresentação Multiplataforma (Web e Mobile)
 
+![](https://img.shields.io/github/license/ThiagoCHM/OdysseaTab.svg)
+![](https://img.shields.io/github/issues/ThiagoCHM/OdysseaTab.svg)
+![](https://img.shields.io/github/issues-closed/ThiagoCHM/OdysseaTab.svg)
+![](https://img.shields.io/github/issues-pr/ThiagoCHM/OdysseaTab.svg)
+![](https://img.shields.io/github/issues-pr-closed/ThiagoCHM/OdysseaTab.svg)
+![](https://img.shields.io/github/followers/OdysseaTab.svg?style=social&label=Follow&maxAge=2592000)
+
 ## Funcionalidades:
 
 #### Viagem:
