@@ -82,27 +82,27 @@ npm run dev
 ## Inicialização do Front:
 1. **Clone o repositório:**
 
-    ```bash
-    cd front
-    ```
+```bash
+cd front
+```
 
 2. **Instale as dependências:**
 
-    ```bash
-    npm i
-    ```
+```bash
+npm i
+```
 
 3. **Execute o servidor de desenvolvimento:**
 
-    ```bash
-    npm run dev
-    ```
+```bash
+npm run dev
+```
 
 4. **Abra o navegador e acesse:**
 
-    ```
-    http://localhost:3000
-    ```
+```
+http://localhost:3000
+```
 
 
 A API estará Disponível em http://localhost:3333.
